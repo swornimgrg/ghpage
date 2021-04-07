@@ -31,7 +31,6 @@ export default function Footer() {
               <Header as="h4" inverted>
                 Aarya Electricals
               </Header>
-              <p>Extra space for a call to action inside the footer that could help re-engage users.</p>
             </Grid.Column>
           </Grid.Row>
         </Grid>
