@@ -3,7 +3,7 @@ import { Button, Container, Grid, Header, Icon, List, Segment } from "semantic-u
 
 export default function Footer() {
   return (
-    <Segment color="blue" inverted vertical style={{ padding: "5em 0em" }}>
+    <Segment color="blue" inverted vertical style={{ padding: "5em 0em", width: "100%" }}>
       <Container>
         <Grid divided inverted stackable>
           <Grid.Row>
@@ -14,23 +14,17 @@ export default function Footer() {
                   <Icon name="map marker alternate" /> Nayabazar, Pokhara
                 </List.Item>
                 <List.Item>
-                  <Icon name="call" /> 9880265856
+                  <Icon name="call" /> +977 98065 96443
                 </List.Item>
                 <List.Item>
                   <Icon name="  mail" />
-                  info@aaryaelectricals.com
+                  ujwal@aaryaelectricals.com
                 </List.Item>
               </List>
               <div>
                 <Button circular color="facebook" icon="facebook" />
                 <Button circular color="google plus" icon="instagram" />
               </div>
-            </Grid.Column>
-
-            <Grid.Column width={9}>
-              <Header as="h4" inverted>
-                Aarya Electricals
-              </Header>
             </Grid.Column>
           </Grid.Row>
         </Grid>

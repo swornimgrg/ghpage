@@ -34,7 +34,7 @@ export default function ContactUs() {
                 <Header.Content>Contact Number</Header.Content>
               </Header>
             </Table.Cell>
-            <Table.Cell>+977 98802 65856</Table.Cell>
+            <Table.Cell>+977 98065 96443</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>
@@ -43,7 +43,7 @@ export default function ContactUs() {
                 <Header.Content>Email</Header.Content>
               </Header>
             </Table.Cell>
-            <Table.Cell>info@aaryaelectricals.com.np</Table.Cell>
+            <Table.Cell>ujwal@aaryaelectricals.com.np</Table.Cell>
           </Table.Row>
           <Table.Row>
             <Table.Cell>
@@ -52,7 +52,7 @@ export default function ContactUs() {
                 <Header.Content>Working Hours</Header.Content>
               </Header>
             </Table.Cell>
-            <Table.Cell>Everyday 10 am to 6 pm</Table.Cell>
+            <Table.Cell>Everyday 8 am to 8 pm</Table.Cell>
           </Table.Row>
         </Table.Body>
       </Table>
