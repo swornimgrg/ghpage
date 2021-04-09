@@ -1,10 +1,6 @@
 .ui.menu {
   margin: 0px;
 }
-.homepage-title {
-  font-family: sans-serif;
-  font-size: large;
-}
 
 .ui.secondary.pointing.menu .item {
   margin: 0 0 -2px !important;
@@ -13,6 +9,16 @@
 .ui.blue.menu .active.item,
 .ui.menu .blue.active.item {
   border-color: #1e77bb !important;
+}
+
+.homepage-banner {
+  min-height: 350px;
+  object-fit: cover;
+}
+
+.homepage-title {
+  font-family: sans-serif;
+  font-size: large;
 }
 
 .product-card-group {
@@ -32,6 +38,11 @@
   max-width: 250px;
 }
 
+.product-card-image {
+  background-color: white;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
 .ui.segment {
   padding: 0px;
   margin: 0px;
@@ -40,7 +51,7 @@
 .card-text {
   font-size: large;
   text-align: center;
-  padding: 1em;
+  padding: 10px 20px;
   font-family: Arial, Helvetica, sans-serif;
 }
 

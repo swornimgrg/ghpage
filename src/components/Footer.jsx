@@ -22,7 +22,12 @@ export default function Footer() {
                 </List.Item>
               </List>
               <div>
-                <Button circular color="facebook" icon="facebook" />
+                <Button
+                  circular
+                  color="facebook"
+                  icon="facebook"
+                  onClick={() => window.location.assign("https://www.facebook.com/aaryaelectricals")}
+                />
                 <Button circular color="google plus" icon="instagram" />
               </div>
             </Grid.Column>

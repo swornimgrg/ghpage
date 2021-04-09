@@ -6,7 +6,7 @@ import FrequentlyShoppedItems from "./FrequentlyShoppedItems";
 export default function HomePage() {
   return (
     <>
-      <Image src="images/banner.jpg" fluid />
+      <Image src="images/banner.jpg" fluid className="homepage-banner" />
       <Container style={{ margin: "2em 0em" }}>
         <p className="homepage-title">Browse by Category</p>
         <BrowseByCategory />
